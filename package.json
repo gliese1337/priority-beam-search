@@ -1,0 +1,35 @@
+{
+  "name": "priority-beam-search",
+  "version": "1.0.0",
+  "description": "A generic beam search optimization algorithm",
+  "license": "MIT",
+  "main": "dist/optimizer.js",
+  "types": "dist/optimizer.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "node ./node_modules/typescript/bin/tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gliese1337/priority-beam-search.git"
+  },
+  "keywords": [
+    "beam",
+    "search",
+    "optimizer"
+  ],
+  "author": "Logan R. Kearsley",
+  "bugs": {
+    "url": "https://github.com/gliese1337/priority-beam-search/issues"
+  },
+  "homepage": "https://github.com/gliese1337/priority-beam-search#readme",
+  "devDependencies": {
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "floyd-rivest": "^1.0.1"
+  }
+}
